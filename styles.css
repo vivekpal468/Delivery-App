@@ -1,3 +1,84 @@
-#heading{
-    color: blueviolet;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 150px;
+    background-color: rgb(100, 94, 94);
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-item ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-item ul li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    width: 200px;
+   
+    margin: 8px;
+    padding: 5px 0 0 5px;
+    border-radius: 10px;
+}
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 190px;
+    margin-left: 2px;
+    height: 150px;
+    border-radius: 15px;
+}
+.res-card>h4{
+    margin: 10px;
+    color: rgb(54, 53, 53);
+}
+.res-card>h3{
+    margin: 10px;  
+}
+/* footer CSS */
+.footer{
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(100, 94, 94);
+    padding: 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+}
+.footer > a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    text-decoration: solid;
+}
+
+.footer > i{
+    padding: 0 5px 0;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: darkred;
+}
+
+.footer > strong{
+    padding-left: 5px;
+}
+
+.footer > strong > span{
+    color: rgb(203, 54, 0)
 }
