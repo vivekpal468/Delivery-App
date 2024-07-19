@@ -18,3 +18,37 @@
 - HTTPs
 - Tree Shaking - remove unused code 
 - Different Dev And Prod Bundlers
+
+
+# Food Ordering App Layout
+
+ *  Header
+ * - LOGO
+ * - Home
+ * - About Us 
+ * - Contact Us
+ * - Cart Logo
+ *  Body
+ *  - Search
+ *  - Card Container
+ *      - Miltiple Restraunt Cards
+ *          - img
+ *          - Name Of res, Cuisine, Star Rating, Delivery Time,  Price
+ *  Footer
+ * - Copyright
+ * - Disclaimer
+ * - Link
+ * - Address
+ * - Contact Info.
+ 
+
+ Two Types Of Exports/Imports -
+ - Defaults Exports/Imports
+
+    Export:  export default <name of the variable OR Component>
+    Import:  import <name of the variable OR Component> from <path of the variable OR Component file>
+
+ - Named Exports/Imports
+    
+   Export:  Use Export before the component Definition in file which you want to export
+   Import:  import {name of the variable OR Component} from <path of the variable OR Component file>
