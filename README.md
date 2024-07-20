@@ -52,3 +52,8 @@
     
    Export:  Use Export before the component Definition in file which you want to export
    Import:  import {name of the variable OR Component} from <path of the variable OR Component file>
+
+
+# There are two types of routing in web app
+- Client Side Routing 
+- Server Side Routing
