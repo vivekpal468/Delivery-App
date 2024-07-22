@@ -78,8 +78,7 @@ const Body = () => {
           return (
             <ResCard
               key={
-                restaurant.data?.cards[4]?.card?.card?.gridElements
-                  ?.infoWithStyle?.restaurants
+                restaurant?.info.id
               }
               {...restaurant.info}
             />
