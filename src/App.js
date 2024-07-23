@@ -5,6 +5,7 @@ import Body from "./components/body"
 import Footer from "./components/footer"
 import About from "./components/About";
 import Contact from "./components/contact";
+import RestaurantMenu from "./components/restauranMenu";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 const AppLayout = ()=>{
     return(
@@ -30,14 +31,18 @@ const appRouter = createBrowserRouter([
             },
             {
                 path:"/Contact",
-                element: <Contact />
+                element: <Contact />,
+            },
+            {
+                path:"/Restaurants/:resid",
+                element: <RestaurantMenu />,
             }
-        ]
-    }
+        ],
+    },
 ]);
-
-
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(<RouterProvider router = {appRouter} />)
+
+
