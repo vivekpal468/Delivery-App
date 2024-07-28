@@ -40,6 +40,7 @@
 }
 .search{
     padding: 10px;
+    cursor: pointer;
 }
 .res-logo{
     width: 190px;
@@ -111,4 +112,9 @@
 }
 .login:hover{
     color: rgba(255, 166, 0);
+}
+.About{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
 }
